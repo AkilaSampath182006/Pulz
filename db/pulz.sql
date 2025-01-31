@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 20, 2025 at 03:49 PM
+-- Generation Time: Jan 31, 2025 at 02:16 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -68,9 +68,9 @@ CREATE TABLE `students` (
 INSERT INTO `students` (`studentID`, `Name`, `Grade`, `sports`, `society`, `pwd`, `role`) VALUES
 (1, 'cgvjbh', '6', 'rthrthr', 'CS', '19aa', 'Student'),
 (2, 'ag', '6', 'sgd', 'CS', '5465', 'Student'),
-(3, 'gmjcfgm', '6', 'porn', 'CS', '6565', 'Teacher'),
 (8, 'DINNA', '7', 'porn', 'CS', '2015', 'Student'),
-(12, 'paskaya', '', '', '', '50', 'Teacher');
+(2006, 'Principal', '6', NULL, NULL, '6565', 'Teacher'),
+(2007, 'Teacher', '', NULL, NULL, '50', 'Teacher');
 
 -- --------------------------------------------------------
 
@@ -132,7 +132,7 @@ ALTER TABLE `teachers`
 -- AUTO_INCREMENT for table `students`
 --
 ALTER TABLE `students`
-  MODIFY `studentID` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `studentID` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2009;
 
 --
 -- AUTO_INCREMENT for table `teachers`
